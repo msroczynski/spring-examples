@@ -2,622 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f1ba96a-fd02-4294-84f0-8f30dfbd11cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/Addresses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/org/jasig/cas/util/AutowiringSchedulerFactoryBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomerAddresses.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomerAddressesPK.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/controller/CustomerController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/dao/CustomerDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/dao/CustomerDAOImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomerOrders.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomerOrdersDelivery.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomerOrdersDeliveryPK.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomerOrdersProducts.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomerOrdersProductsPK.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/service/CustomerService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/service/CustomerServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/Customers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/CustomersPaymentMethods.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/org/jasig/cas/web/flow/GatewayServicesManagementCheck.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/Products.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/RefAddressTypes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/RefDeliveryStatusCodes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/RefOrderStatusCodes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/RefPaymentMethods.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/RefProductTypes.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/pl/miteco/spring/example/model/Suppliers.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/activation-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/add_service.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/alert2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/antlr-2.7.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/aspectjrt-1.6.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/aspectjweaver-1.6.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/images/iphone/backbutton_mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/images/iphone/button_bg_insetShadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/cas-client-core-3.1.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/cas-server-core-3.4.10.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/commons-codec-1.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/commons-collections-3.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/commons-io-2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/commons-jexl-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/commons-lang-2.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/confirm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/delete_service.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/edit_service.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/false.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/green.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/hibernate-commons-annotations-3.2.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/hibernate-core-3.6.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/hibernate-validator-4.0.2.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/info_icon_small.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/inspektr-audit-1.0.4.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/inspektr-common-1.0.4.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/inspektr-error-1.0.4.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/inspektr-support-spring-1.0.4.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/ja-sig-logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/javassist-3.7.ga.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/lib/javax.persistence.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/jaxb-api-2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/jaxb-impl-2.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/jcl-over-slf4j-1.5.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/jdom-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/jstl-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/jta-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/key-point_bl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/key-point_br.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/key-point_tl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/key-point_tr.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/images/iphone/listmenu_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/images/iphone/listmenu_loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/images/iphone/listmenu_loader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/log.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/log4j-1.2.15.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/images/iphone/navbar_back_button_insetShadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/images/iphone/navbar_normal_button_insetShadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/ognl-2.7.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/opensaml-1.1b.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/perf4j-0.9.14-log4jonly.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/person-directory-api-1.5.0-RC6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/person-directory-impl-1.5.0-RC6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/quartz-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/red.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/slf4j-api-1.5.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/slf4j-log4j12-1.5.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-binding-2.2.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-context-support-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-jdbc-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-js-2.2.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-js-resources-2.2.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-orm-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-security-cas-client-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-security-config-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-security-core-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-security-web-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-webflow-2.2.1.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/spring-webmvc-3.0.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/etc/jdbc-drivers/sqljdbc4-4.0.2206.100.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/etc/jdbc-drivers/sqljdbc4-4.0.2206.100.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/standard-1.1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/stax-api-1.0-2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/success.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/images/services/true.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/validation-api-1.0.0.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/xmldsig-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/lib/xmlsec-1.4.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/Addresses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/test/java/com/sprhib/init/BaseTestConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/java/net/viralpatel/contact/form/Contact.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/java/net/viralpatel/contact/controller/ContactController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/java/net/viralpatel/contact/dao/ContactDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/java/net/viralpatel/contact/dao/ContactDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/java/net/viralpatel/contact/service/ContactService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/java/net/viralpatel/contact/service/ContactServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomerAddresses.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomerAddressesPK.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/controller/CustomerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/dao/CustomerDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/dao/CustomerDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomerOrders.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomerOrdersDelivery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomerOrdersDeliveryPK.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomerOrdersProducts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomerOrdersProductsPK.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/service/CustomerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/service/CustomerServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/Customers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/CustomersPaymentMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/config/DispatcherServletInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/FileNameGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/src/main/java/com/miteco/common/controller/HelloWorldController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/src/main/webapp/WEB-INF/pages/HelloWorldPage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/init/Initializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/src/main/java/org/jasig/services/persondir/support/ldap/LdapPersonAttributeAndRoleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/controller/LinkController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/test/java/com/sprhib/test/LinkControllerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/webapp/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_inspektr_inspektr_audit_1_0_4_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_inspektr_inspektr_common_1_0_4_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_jdbc_sqljdbc4_4_0_2206_100.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_20030825_184428.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jexl_commons_jexl_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_20030825_183949.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_0_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_xmldsig_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jdom_jdom_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_santuario_xmlsec_1_4_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_7_0_42.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_7_0_42.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cometd_java_bayeux_api_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cometd_java_cometd_java_client_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cometd_java_cometd_java_common_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_7_4_4_v20110707.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_7_4_4_v20110707.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_7_4_4_v20110707.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_7_4_4_v20110707.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_3_6_10_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_6_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_cas_client_core_3_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_cas_server_core_3_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_cas_server_support_ldap_3_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_cas_server_webapp_war_3_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_service_person_directory_api_1_5_0_RC6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_service_person_directory_impl_1_5_0_RC6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_9_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_1_1b.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_perf4j_perf4j_log4jonly_0_9_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_5_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_0_5_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_0_5_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_0_5_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_0_5_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_0_5_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_0_5_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_5_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_2_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_file_2_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jms_2_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_1_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_tiger_1_3_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_cas_client_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_ldap_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_2_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_2_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_mvc_1_0_0_M1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_2_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_1_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_M3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_binding_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_js_resources_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_webflow_spring_webflow_2_2_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_security_xmlsec_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/MessageConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/MessageProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/src/main/java/com/miteco/spring/model/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/src/main/java/com/miteco/spring/controller/PersonController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/src/main/java/com/miteco/spring/service/PersonService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/Portfolio.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/web/PortfolioController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/PortfolioPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/service/PortfolioService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/Products.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/PropertiesProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/service/Quote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/service/QuoteService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/ReadMe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/RefAddressTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/RefDeliveryStatusCodes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/RefOrderStatusCodes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/RefPaymentMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/RefProductTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-boot-hello/src/main/java/hello/SampleController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/SimpleMessageProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/SoapLoginUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/StreamingClientExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/StreamingClientWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/pl/miteco/spring/example/model/Suppliers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/model/Team.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/controller/TeamController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/dao/TeamDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/dao/TeamDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/service/TeamService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/service/TeamServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/service/Trade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/service/TradeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/java/com/sprhib/init/WebAppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/config/WebConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/config/WebSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/config/WebSecurityInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/java/org/springframework/samples/portfolio/config/WebSocketConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/WEB-INF/pages/add-team-form.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/services/add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/app.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/WEB-INF/applicationContext-security.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/argumentExtractorsConfiguration.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/auditTrailContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/authfailed.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/authorizationFailure.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/includes/bottom.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/services/includes/bottom.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/brokenContext.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/builddef.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/cas-logout.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/cas-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/cas-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/cas-theme-default.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/cas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/services/cas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/themes/default/cas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/js/cas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/cas.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/src/main/webapp/WEB-INF/cas.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/casBlockedView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/casConfirmView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/casGenericSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/casLoginView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/casLogoutView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceFailureView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/openid/casOpenIdServiceSuccessView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/casPostResponseView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/2.0/casProxyFailureView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/2.0/casProxySuccessView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/2.0/casServiceValidationFailure.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/2.0/casServiceValidationSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/src/main/webapp/WEB-INF/view/jsp/protocol/2.0/casServiceValidationSuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cas_server_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/cas_server_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/webapp/WEB-INF/jsp/contact.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/etc/db-model/cre_customers_and_orders.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/etc/db-model/create_table.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/jsp/customer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/webapp/WEB-INF/views/customer.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/default-mobile-custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/default_views.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/denied.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/deployGlassfish.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/deployTomcat8.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/deployerConfigContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/src/main/webapp/WEB-INF/deployerConfigContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/etc/db-model/drop_customers_and_orders.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/WEB-INF/pages/edit-team-form.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/errors.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/filters.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/fss-framework-1.1.2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/fss-mobile-iphone-layout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/WEB-INF/pages/home.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/services/ieFix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/css/ie_cas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/webapp/WEB-INF/views/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/secure/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/secure/extreme/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/webapp/WEB-INF/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/js/jquery-1.8.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/js/knockout-2.3.0.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/WEB-INF/pages/list-of-teams.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/log.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/src/main/webapp/WEB-INF/classes/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/resources/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/test/resources/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/target/classes/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/login-webflow.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/services/logout.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/services/manage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/unused-spring-configuration/mbeans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_ca.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_cs.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_de.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/resources/messages_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/classes/messages_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/resources/messages_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_es.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_fr.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_hr.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_it.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_ja.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_mk.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_nl.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_pl.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_pt_BR.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_pt_PT.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_ru.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_sl.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_sv.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_tr.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_ur.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/messages_zh_CN.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/src/main/webapp/WEB-INF/jsp/output.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/java/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/java/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/META-INF/maven/com.mvchib/spring/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-boot-hello/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/META-INF/maven/com.mvchib/spring/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/css/portfolio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/js/portfolio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/propertyFileConfigurer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/classes/protocol_views.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/restlet-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/securityContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/src/main/webapp/WEB-INF/spring-configuration/securityContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/serviceErrorSsoView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/serviceErrorView.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/sfdc-stream-to-jms-to-file.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/shutdownTomcat8.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/js/sockjs-0.3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-boot-hello/spring-boot-hello.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/spring-cas-sample.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-common-examples.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/spring-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/spring-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/spring-data-mongodb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-examples.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-integration-examples/spring-integration-examples.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/spring-mvc-hello.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/spring-mvc-hibernate-simple.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/spring-mvc-hibernate.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/spring-mvc-jpa.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/webapp/WEB-INF/spring-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/spring-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/resources/spring-servlet.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-sso-cas.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/spring-websocket-portfolio.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_cas_sample_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_cas_sample_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_data_mongodb_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_data_mongodb_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_hello_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_hello_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_hibernate_simple_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_hibernate_simple_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_hibernate_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_hibernate_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_jpa_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_jpa_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/etc/jdbc-drivers/sqlserver-driver-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/etc/jdbc-drivers/sqlserver-driver-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-websocket-portfolio/src/main/webapp/assets/js/stomp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/ticketExpirationPolicies.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/ticketGrantingTicketCookieGenerator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/ticketRegistry.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/default/ui/includes/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/services/includes/top.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/uniqueIdGenerators.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/protocol/openid/user.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/view/jsp/services/viewStatistics.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/spring-configuration/warnCookieGenerator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/out/artifacts/spring_jpa_example_war_exploded/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/app.properties" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/app.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/cas-server.iml" afterPath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/cas-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/sfdc-stream-to-jms-to-file.iml" afterPath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/sfdc-stream-to-jms-to-file.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-common-examples/spring-boot-hello/spring-boot-hello.iml" afterPath="$PROJECT_DIR$/spring-common-examples/spring-boot-hello/spring-boot-hello.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/spring-data-mongodb.iml" afterPath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/spring-data-mongodb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/spring-mvc-hello.iml" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/spring-mvc-hello.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/spring-mvc-hibernate-simple.iml" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/spring-mvc-hibernate-simple.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/spring-mvc-hibernate.iml" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/spring-mvc-hibernate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/spring-mvc-jpa.iml" afterPath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/spring-mvc-jpa.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-examples.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3f1ba96a-fd02-4294-84f0-8f30dfbd11cf" time="1381135993268" ignored="false" />
+    <file path="/Dummy.txt" changelist="3f1ba96a-fd02-4294-84f0-8f30dfbd11cf" time="1381137006674" ignored="false" />
+    <file path="/app.properties" changelist="3f1ba96a-fd02-4294-84f0-8f30dfbd11cf" time="1381137177017" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -692,6 +91,13 @@
       <MyDateState />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/app.properties" />
+      </list>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <PATH>
@@ -699,19 +105,19 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
-      </PATH>
-      <PATH>
         <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Spring Examples" />
+          <option name="myItemId" value="Spring Examples :: Integration :: SFDC Stream to JMS to File" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -748,6 +154,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -757,19 +164,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -780,8 +176,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -820,19 +216,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -859,6 +242,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -930,36 +326,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921812" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.6707819" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.69050896" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24388674" sideWeight="0.6707819" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13854596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24388674" sideWeight="0.69050896" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30949107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1025,7 +421,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/overlays/org.jasig.cas.cas-server-webapp-3.4.10/WEB-INF/cas-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="858" selection-end="858" vertical-scroll-proportion="0.52">
+        <state line="13" column="34" selection-start="858" selection-end="858" vertical-scroll-proportion="0.52" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/log.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.11015119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/sfdc-stream-to-jms-to-file.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.0388768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/java/com/ms/demo/sfdc/PropertiesProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.17857143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="491" selection-end="491" vertical-scroll-proportion="0.60714287">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
