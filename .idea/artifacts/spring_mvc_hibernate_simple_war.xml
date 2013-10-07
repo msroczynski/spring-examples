@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-mvc-hibernate-simple:war">
+    <output-path>$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/target</output-path>
+    <root id="archive" name="spr-mvc-hib.war">
+      <element id="artifact" artifact-name="spring-mvc-hibernate-simple:war exploded" />
+    </root>
+  </artifact>
+</component>

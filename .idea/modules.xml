@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/cas-server.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/cas-server/cas-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/sfdc-stream-to-jms-to-file.iml" filepath="$PROJECT_DIR$/spring-integration-examples/sfdc-stream-to-jms-to-file/sfdc-stream-to-jms-to-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-boot-hello/spring-boot-hello.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-boot-hello/spring-boot-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/spring-cas-sample.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-cas-sample/spring-cas-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-common-examples.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-common-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/spring-data-mongodb.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/spring-data-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-examples.iml" filepath="$PROJECT_DIR$/spring-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-integration-examples/spring-integration-examples.iml" filepath="$PROJECT_DIR$/spring-integration-examples/spring-integration-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/spring-mvc-hello.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hello/spring-mvc-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/spring-mvc-hibernate.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate/spring-mvc-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/spring-mvc-hibernate-simple.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-mvc-hibernate-simple/spring-mvc-hibernate-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/spring-mvc-jpa.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-mvc-jpa/spring-mvc-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-sso-cas.iml" filepath="$PROJECT_DIR$/spring-common-examples/spring-sso-cas/spring-sso-cas.iml" />
+    </modules>
+  </component>
+</project>
+

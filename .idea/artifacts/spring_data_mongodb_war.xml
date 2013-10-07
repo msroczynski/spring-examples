@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-data-mongodb:war">
+    <output-path>$PROJECT_DIR$/spring-common-examples/spring-data-mongodb/target</output-path>
+    <root id="archive" name="spring-data-mongodb.war">
+      <element id="artifact" artifact-name="spring-data-mongodb:war exploded" />
+    </root>
+  </artifact>
+</component>

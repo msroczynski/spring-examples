@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>models.ProcessEntity</class>
+        <class>models.ProcessHistoryEntity</class>
+        <class>models.SapIdocMsgsErrorEntity</class>
+        <class>models.SapIdocMsgsInEntity</class>
+        <class>models.AddressesEntity</class>
+        <class>models.CustomerAddressesEntity</class>
+        <class>models.CustomerOrdersEntity</class>
+        <class>models.CustomerOrdersDeliveryEntity</class>
+        <class>models.CustomerOrdersProductsEntity</class>
+        <class>models.CustomersEntity</class>
+        <class>models.CustomersPaymentMethodsEntity</class>
+        <class>models.ProductsEntity</class>
+        <class>models.RefAddressTypesEntity</class>
+        <class>models.RefDeliveryStatusCodesEntity</class>
+        <class>models.RefOrderStatusCodesEntity</class>
+        <class>models.RefPaymentMethodsEntity</class>
+        <class>models.RefProductTypesEntity</class>
+        <class>models.SuppliersEntity</class>
+        <class>models.Addresses</class>
+        <class>models.CustomerAddresses</class>
+        <class>models.CustomerOrders</class>
+        <class>models.CustomerOrdersDelivery</class>
+        <class>models.CustomerOrdersProducts</class>
+        <class>models.Customers</class>
+        <class>models.CustomersPaymentMethods</class>
+        <class>models.Products</class>
+        <class>models.RefAddressTypes</class>
+        <class>models.RefDeliveryStatusCodes</class>
+        <class>models.RefOrderStatusCodes</class>
+        <class>models.RefPaymentMethods</class>
+        <class>models.RefProductTypes</class>
+        <class>models.Suppliers</class>
+        <class>pl.miteco.spring.example.model.Addresses</class>
+        <class>pl.miteco.spring.example.model.CustomerAddresses</class>
+        <class>pl.miteco.spring.example.model.CustomerOrders</class>
+        <class>pl.miteco.spring.example.model.CustomerOrdersDelivery</class>
+        <class>pl.miteco.spring.example.model.CustomerOrdersProducts</class>
+        <class>pl.miteco.spring.example.model.Customers</class>
+        <class>pl.miteco.spring.example.model.CustomersPaymentMethods</class>
+        <class>pl.miteco.spring.example.model.Products</class>
+        <class>pl.miteco.spring.example.model.RefAddressTypes</class>
+        <class>pl.miteco.spring.example.model.RefDeliveryStatusCodes</class>
+        <class>pl.miteco.spring.example.model.RefOrderStatusCodes</class>
+        <class>pl.miteco.spring.example.model.RefPaymentMethods</class>
+        <class>pl.miteco.spring.example.model.RefProductTypes</class>
+        <class>pl.miteco.spring.example.model.Suppliers</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:sqlserver://ob-msroczynski;database=crm;"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.connection.username" value="crm"/>
+            <property name="hibernate.connection.password" value="crm"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>

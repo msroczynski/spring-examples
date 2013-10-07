@@ -1,0 +1,29 @@
+USE [crm]
+GO
+
+/****** Object:  Table [crm].[Teams]    Script Date: 09/17/2013 15:34:42 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [crm].[Teams](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[name] [varchar](40) NOT NULL,
+	[rating] [int] NOT NULL,
+ CONSTRAINT [PK_Teams] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
