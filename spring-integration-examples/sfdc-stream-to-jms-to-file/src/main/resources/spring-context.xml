@@ -19,7 +19,8 @@
 
     <context:annotation-config/>
 
-    <context:component-scan base-package="com.ms.demo.sfdc"/>
+    <context:component-scan base-package="com.ms.spring.integration.jms,com.ms.spring.integration.file,com.ms.spring.integration.util,com.ms.spring.integration.adapter.sfdc"/>
+
     <!-- Properties placeholder -->
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="location">
@@ -38,15 +39,7 @@
     <!-- A destination in ActiveMQ -->
     <bean id="amqInQueueSFDC" class="org.apache.activemq.command.ActiveMQQueue">
         <constructor-arg value="${amq.sfdc.queueName}"/>
-
     </bean>
-    <!-- A JmsTemplate instance that uses the cached connection and destination -->
-<!--    <bean id="producerTemplate" class="org.springframework.jms.core.JmsTemplate">
-        <property name="connectionFactory" ref="cachedConnectionFactory"/>
-        <property name="defaultDestination" ref="amqInQueueSFDC"/>
-        <property name="deliveryPersistent" value="true"/>
-    </bean>-->
-
     <!-- JMS message listener -->
     <bean id="jmsMessageListener" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
         <property name="connectionFactory" ref="cachedConnectionFactory"/>
@@ -62,5 +55,7 @@
     <bean id="jmsMessageProducer" class="com.ms.spring.integration.jms.JmsMessageProducer"/>
 
     <bean id="properties" class="com.ms.spring.integration.util.PropertiesProvider"/>
+
+    <bean id="filenameGenerator" class="com.ms.spring.integration.file.FilenameGeneratorImpl"/>
 
 </beans>
