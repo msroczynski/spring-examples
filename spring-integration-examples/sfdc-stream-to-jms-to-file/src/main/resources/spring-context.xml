@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:p="http://www.springframework.org/schema/p"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:int="http://www.springframework.org/schema/integration"
-       xmlns:jms="http://www.springframework.org/schema/integration/jms"
-       xmlns:file="http://www.springframework.org/schema/integration/file"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context.xsd
-        http://www.springframework.org/schema/integration
-		http://www.springframework.org/schema/integration/spring-integration.xsd
-        http://www.springframework.org/schema/integration/jms
-		http://www.springframework.org/schema/integration/jms/spring-integration-jms.xsd
-		http://www.springframework.org/schema/integration/file
-		http://www.springframework.org/schema/integration/file/spring-integration-file.xsd">
+        http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
 
@@ -27,32 +17,6 @@
             <value>app.properties</value>
         </property>
     </bean>
-    <!-- ActiveMQ connection factory -->
-    <bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
-        <property name="brokerURL" value="${amq.brokerURL}"/>
-    </bean>
-    <!-- A cached connection to wrap the ActiveMQ connection -->
-    <bean id="cachedConnectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
-        <property name="targetConnectionFactory" ref="amqConnectionFactory"/>
-        <property name="sessionCacheSize" value="10"/>
-    </bean>
-    <!-- A destination in ActiveMQ -->
-    <bean id="amqInQueueSFDC" class="org.apache.activemq.command.ActiveMQQueue">
-        <constructor-arg value="${amq.sfdc.queueName}"/>
-    </bean>
-    <!-- JMS message listener -->
-    <bean id="jmsMessageListener" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
-        <property name="connectionFactory" ref="cachedConnectionFactory"/>
-        <property name="destination" ref="amqInQueueSFDC"/>
-        <property name="sessionTransacted" value="true"/>
-        <property name="maxConcurrentConsumers" value="${jms.message.listener.maxConcurrentConsumers}"/>
-        <property name="concurrentConsumers" value="${jms.message.listener.concurrentConsumers}"/>
-        <property name="receiveTimeout" value="${jms.message.listener.receiveTimeout}"/>
-        <property name="recoveryInterval" value="${jms.message.listener.recoveryInterval}"/>
-        <property name="autoStartup" value="${jms.message.listener.autoStartup}"/>
-    </bean>
-
-    <bean id="jmsMessageProducer" class="com.ms.spring.integration.jms.JmsMessageProducer"/>
 
     <bean id="properties" class="com.ms.spring.integration.util.PropertiesProvider"/>
 

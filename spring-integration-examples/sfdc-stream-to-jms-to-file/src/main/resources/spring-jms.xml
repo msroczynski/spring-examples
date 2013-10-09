@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <import resource="classpath:spring-context.xml"/>
+
+    <!-- ActiveMQ connection factory -->
+    <bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="${amq.brokerURL}"/>
+    </bean>
+
+    <!-- A cached connection to wrap the ActiveMQ connection -->
+    <bean id="cachedConnectionFactory" class="org.springframework.jms.connection.CachingConnectionFactory">
+        <property name="targetConnectionFactory" ref="amqConnectionFactory"/>
+        <property name="sessionCacheSize" value="10"/>
+    </bean>
+
+    <!-- A destination in ActiveMQ to store messages from Salesforce.com -->
+    <bean id="amqQueueFromSFDC" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="${amq.from.sfdc.queueName}"/>
+    </bean>
+
+    <!-- A destination in ActiveMQ to store messages to Salesforce.com -->
+    <bean id="amqQueueToSFDC" class="org.apache.activemq.command.ActiveMQQueue">
+        <constructor-arg value="${amq.to.sfdc.queueName}"/>
+    </bean>
+
+    <!-- JMS message listener from Salesforce.com -->
+    <bean id="jmsFromSfdcMessageListener" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="cachedConnectionFactory"/>
+        <property name="destination" ref="amqQueueFromSFDC"/>
+        <property name="sessionTransacted" value="true"/>
+        <property name="maxConcurrentConsumers" value="${jms.message.listener.maxConcurrentConsumers}"/>
+        <property name="concurrentConsumers" value="${jms.message.listener.concurrentConsumers}"/>
+        <property name="receiveTimeout" value="${jms.message.listener.receiveTimeout}"/>
+        <property name="recoveryInterval" value="${jms.message.listener.recoveryInterval}"/>
+        <property name="autoStartup" value="${jms.message.listener.autoStartup}"/>
+    </bean>
+
+    <!-- JMS message listener from Salesforce.com -->
+<!--    <bean id="jmsToSfdcMessageListener" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="cachedConnectionFactory"/>
+        <property name="destination" ref="amqQueueToSFDC"/>
+        <property name="sessionTransacted" value="true"/>
+        <property name="maxConcurrentConsumers" value="${jms.message.listener.maxConcurrentConsumers}"/>
+        <property name="concurrentConsumers" value="${jms.message.listener.concurrentConsumers}"/>
+        <property name="receiveTimeout" value="${jms.message.listener.receiveTimeout}"/>
+        <property name="recoveryInterval" value="${jms.message.listener.recoveryInterval}"/>
+        <property name="autoStartup" value="${jms.message.listener.autoStartup}"/>
+    </bean>-->
+
+    <!-- JMS message producer -->
+    <bean id="jmsMessageProducer" class="com.ms.spring.integration.jms.JmsMessageProducer"/>
+
+</beans>

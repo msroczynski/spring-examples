@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:int="http://www.springframework.org/schema/integration"
+       xmlns:jms="http://www.springframework.org/schema/integration/jms"
+       xmlns:file="http://www.springframework.org/schema/integration/file"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/integration
+		http://www.springframework.org/schema/integration/spring-integration.xsd
+        http://www.springframework.org/schema/integration/jms
+		http://www.springframework.org/schema/integration/jms/spring-integration-jms.xsd
+		http://www.springframework.org/schema/integration/file
+		http://www.springframework.org/schema/integration/file/spring-integration-file.xsd">
+
+    <import resource="classpath:spring-context.xml"/>
+    <import resource="classpath:spring-jms.xml"/>
+
+<!--    <file:inbound-channel-adapter id="filesIn" channel="file-in-channel" directory="file:${sfdc.input.directory}"
+                                  filename-regex="${sfdc.input.file.regex}" prevent-duplicates="true"
+                                  auto-startup="true">
+        <file:nio-locker/>
+        <int:poller id="poller" fixed-delay="5000"/>
+    </file:inbound-channel-adapter>-->
+
+    <file:inbound-channel-adapter id="filesIn" channel="file-in-channel" directory="file:${sfdc.input.directory}" prevent-duplicates="true">
+        <file:nio-locker/>
+        <!--<int:poller id="poller" fixed-delay="5000"/>-->
+    </file:inbound-channel-adapter>
+
+<!--    <bean id="inputFileHandler"
+          class="com.ms.spring.integration.file.InputFileHandler">
+        <constructor-arg value="${sfdc.input.directory}"/>
+        <constructor-arg value="${sfdc.input.file.regex}"/>
+    </bean>
+
+    <int:service-activator id="inputFileServiceActivator" input-channel="file-in-channel" method="processFile"
+                           ref="inputFileHandler"/>-->
+
+    <!-- Channel (pipe) connecting the endpoints -->
+    <int:channel id="file-in-channel"/>
+
+    <!-- Channel (pipe) connecting the endpoints -->
+    <int:channel id="jms-in-channel"/>
+
+    <!-- Send message to JMS -->
+    <jms:outbound-channel-adapter channel="jms-in-channel"
+                                  connection-factory="cachedConnectionFactory"
+                                  destination="amqQueueToSFDC"/>
+
+    <!-- Brigding File inbound with JMS outbound channel -->
+    <int:bridge input-channel="file-in-channel" output-channel="jms-in-channel"/>
+
+    <!-- If JMS Send was successful, remove the file (within the transaction)-->
+    <!--    <int:service-activator input-channel="file-in-channel" output-channel="jms-in-channel"
+                               expression="headers.file_originalFile.delete()"/>-->
+
+</beans>

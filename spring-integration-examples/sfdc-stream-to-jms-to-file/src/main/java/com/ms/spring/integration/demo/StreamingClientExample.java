@@ -6,11 +6,15 @@ import com.ms.spring.integration.adapter.sfdc.StreamingClientWorker;
 public class StreamingClientExample {
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
-        StreamingClientWorker scw = new StreamingClientWorker();
-
-        scw.runListener();
+        try {
+            StreamingClientWorker scw = new StreamingClientWorker();
+            scw.runListener();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
 
     }
 

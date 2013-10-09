@@ -7,6 +7,6 @@ import org.springframework.integration.annotation.Header;
 public interface JmsGateway {
 
     @Gateway
-    public void sendMessage(@Header("system") String s, Object o);
+    public void sendMessage(@Header("system") String s, @Header("sobject_id") String sid, Object o);
 
 }

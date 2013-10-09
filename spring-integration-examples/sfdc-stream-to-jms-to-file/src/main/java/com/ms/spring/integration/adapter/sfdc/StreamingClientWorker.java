@@ -46,7 +46,7 @@ public class StreamingClientWorker {
     private PropertiesProvider prop = null;
 
     public StreamingClientWorker() {
-        ctx = new ClassPathXmlApplicationContext(new String[] {"spring-context.xml","spring-integration.xml"});
+        ctx = new ClassPathXmlApplicationContext(new String[] {"spring-context.xml","spring-jms.xml", "spring-integration-from-sfdc.xml", "spring-integration-to-sfdc.xml"});
         prop = (PropertiesProvider)ctx.getBean("properties");
         CHANNEL = VERSION_22 ? "/"+prop.getSfdcPushTopicAcct() : "/topic/"+prop.getSfdcPushTopicAcct();
     }
@@ -153,7 +153,7 @@ public class StreamingClientWorker {
 
                 JmsMessageProducer jmsMP = (JmsMessageProducer)ctx.getBean("jmsMessageProducer");
                 try {
-                    jmsMP.sendMessage(message);
+                    jmsMP.sendMessageFromSFDC(message);
                 } catch (Exception e) {
                     System.out.println("Error sending JMS message: " + e.getMessage());
                 }

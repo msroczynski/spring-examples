@@ -10,6 +10,6 @@ public class FilenameGeneratorImpl implements FileNameGenerator
 {
     @Override
     public String generateFileName(Message<?> message) {
-        return "sfdc_exp_" + new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss'.msg'").format(new Date());
+        return "sfdc_exp_" + new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss").format(new Date()) + "_" + message.getHeaders().get("sobject_id", String.class)+".msg";
     }
 }

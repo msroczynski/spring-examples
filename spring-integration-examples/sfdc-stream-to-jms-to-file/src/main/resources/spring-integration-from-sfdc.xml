@@ -18,6 +18,7 @@
 		http://www.springframework.org/schema/integration/file/spring-integration-file.xsd">
 
     <import resource="classpath:spring-context.xml"/>
+    <import resource="classpath:spring-jms.xml"/>
 
     <!-- Channel (pipe) connecting the endpoints -->
     <int:channel id="sfdc-stream-channel"/>
@@ -30,18 +31,20 @@
     <!-- Send message to JMS -->
     <jms:outbound-channel-adapter channel="sfdc-stream-channel"
                                   connection-factory="cachedConnectionFactory"
-                                  destination="amqInQueueSFDC"/>
+                                  destination="amqQueueFromSFDC"/>
 
     <!-- JMS message consumer channel -->
-    <jms:message-driven-channel-adapter id="inJMS" container="jmsMessageListener" channel="jms-sfdc-in-channel"/>
+    <jms:message-driven-channel-adapter id="inJMS" container="jmsFromSfdcMessageListener"
+                                        channel="jms-sfdc-in-channel"/>
 
-<!--    <int:header-enricher input-channel="jms-sfdc-in-channel" output-channel="file-sfdc-out-channel">
-        <int:header name="file_name" value="change.txt"/>
-    </int:header-enricher>-->
+    <!--    <int:header-enricher input-channel="jms-sfdc-in-channel" output-channel="file-sfdc-out-channel">
+            <int:header name="file_name" value="change.txt"/>
+        </int:header-enricher>-->
 
     <!-- File outbound channel adapter -->
     <file:outbound-channel-adapter id="outFile" auto-create-directory="true" delete-source-files="true"
-                                   directory="file:C:\Temp\OUT" channel="file-sfdc-out-channel" filename-generator="filenameGenerator"/>
+                                   directory="file:${sfdc.output.directory}" channel="file-sfdc-out-channel"
+                                   filename-generator="filenameGenerator"/>
 
     <!-- JMS inbound channel -->
     <int:publish-subscribe-channel id="jms-sfdc-in-channel">
@@ -53,9 +56,9 @@
     <!-- File outbound channel -->
     <int:channel id="file-sfdc-out-channel">
         <int:queue capacity="10"/>
-        <int:interceptors>
+  <!--      <int:interceptors>
             <int:wire-tap channel="logger"/>
-        </int:interceptors>
+        </int:interceptors>-->
     </int:channel>
 
     <!-- Brigding JMS inbound and File outbound channel -->
